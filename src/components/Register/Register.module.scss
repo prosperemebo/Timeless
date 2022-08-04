@@ -1,0 +1,35 @@
+@import '../../sass/abstracts/mixins';
+
+.Register {
+  margin-bottom: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  p {
+    padding: 0 1.5rem;
+  }
+
+  .code {
+    padding: 2rem;
+    margin: 0 2rem;
+
+    img {
+      height: 50rem;
+    }
+
+    @include respond(tab-port) {
+      //   width: 90%;
+
+      img {
+        height: 30rem;
+      }
+    }
+  }
+
+  h1 {
+    line-height: 200%;
+  }
+}

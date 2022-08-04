@@ -26,6 +26,40 @@ const Venue = () => {
           </p>
         </div>
       </div>
+      <div className={`card ${classes.rsv}`}>
+        <h2 className='heading-secondary'>Colours of the Day</h2>
+        <div className={classes.info}>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>BRIDE’S FAMILY</h3>
+            <p className='paragraph'>Onion &amp; Magenta</p>
+          </div>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>GROOM’S FAMILY</h3>
+            <p className='paragraph'>Magenta &amp; Nugget Gold</p>
+          </div>
+        </div>
+        <h2 className='heading-secondary'>RSVP</h2>
+        <div className={classes.info}>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>Olaide Eremiokhale</h3>
+            <p className='paragraph'>08026263744</p>
+          </div>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>Temitope Beckley</h3>
+            <p className='paragraph'>07036623355</p>
+          </div>
+        </div>
+        <div className={classes.info}>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>Babajide Adigun</h3>
+            <p className='paragraph'>08033084982</p>
+          </div>
+          <div className={classes.data}>
+            <h3 className='heading-tertiary'>Titilayo Orojimi</h3>
+            <p className='paragraph'>08029134533</p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
