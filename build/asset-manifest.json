@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.52361571.css",
-    "main.js": "/static/js/main.5c6ad9e3.js",
+    "main.css": "/static/css/main.afe5f412.css",
+    "main.js": "/static/js/main.da399aee.js",
     "static/js/787.b40b939f.chunk.js": "/static/js/787.b40b939f.chunk.js",
     "static/media/overview.png": "/static/media/overview.b5a767f5f908857f155a.png",
     "static/media/comp-1.png": "/static/media/comp-1.2816ef096e553075f9bc.png",
+    "static/media/img2.jpg": "/static/media/img2.40b71b060563f818d75d.jpg",
+    "static/media/img1.jpg": "/static/media/img1.c6ec59b3f0d6d1bce38e.jpg",
     "static/media/hero.png": "/static/media/hero.df44718b763e84a88ee1.png",
+    "static/media/img4.jpg": "/static/media/img4.af93926e847a95016c06.jpg",
     "static/media/flower.png": "/static/media/flower.91a40149bb72b4f806c0.png",
+    "static/media/img3.jpg": "/static/media/img3.8d2419ed520fc1fd5de3.jpg",
     "static/media/qrcode.jpg": "/static/media/qrcode.b272dd8f9bc7886cc710.jpg",
     "static/media/wedding-icon.png": "/static/media/wedding-icon.0ce244ea50e211fc8b05.png",
     "static/media/cheers-icon.png": "/static/media/cheers-icon.27240cbfabf095835995.png",
     "static/media/logo.png": "/static/media/logo.0125ef2796bff777fd09.png",
     "index.html": "/index.html",
-    "main.52361571.css.map": "/static/css/main.52361571.css.map",
-    "main.5c6ad9e3.js.map": "/static/js/main.5c6ad9e3.js.map",
+    "main.afe5f412.css.map": "/static/css/main.afe5f412.css.map",
+    "main.da399aee.js.map": "/static/js/main.da399aee.js.map",
     "787.b40b939f.chunk.js.map": "/static/js/787.b40b939f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52361571.css",
-    "static/js/main.5c6ad9e3.js"
+    "static/css/main.afe5f412.css",
+    "static/js/main.da399aee.js"
   ]
 }
