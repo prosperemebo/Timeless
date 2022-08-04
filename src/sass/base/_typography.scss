@@ -1,0 +1,61 @@
+body {
+  font-family: $primary-font;
+  font-weight: 400;
+  /* font-size: 16px;*/
+  line-height: 1.7;
+  color: $color-grey-1;
+}
+
+.heading-primary {
+  color: $color-accent;
+  // text-transform: capitalize;
+  font-size: 8rem;
+  font-weight: 400;
+  // font-family: $secondary-font;
+  padding: 0 2rem;
+  overflow: hidden;
+
+  @include respond(tab-land) {
+    font-size: 6rem;
+  }
+
+  @include respond(phone) {
+    font-size: 4.5rem;
+  }
+}
+
+.heading-secondary {
+  color: $color-red;
+  font-size: 4rem;
+  font-family: $secondary-font;
+  overflow: hidden;
+  font-weight: 700;
+}
+
+.heading-tertiary {
+  font-family: $secondary-font;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-red;
+
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
+}
+
+.paragraph {
+  font-size: 2.2rem;
+  line-height: 150%;
+  font-family: $secondary-font;
+  font-weight: 400;
+  color: $color-secondary;
+
+  @include respond(tab-port) {
+    font-size: 1.8rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}

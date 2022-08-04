@@ -1,0 +1,42 @@
+@import '../../sass/abstracts/mixins';
+
+.Venue {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+
+  h1 {
+    margin-bottom: 5rem;
+  }
+
+  .venues {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
+
+    .venueItem {
+      img {
+        width: 12rem;
+        margin-bottom: 1.5rem;
+      }
+
+      h3 {
+        margin-bottom: 1rem;
+      }
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+
+        @include respond(phone) {
+          margin-right: 0;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
