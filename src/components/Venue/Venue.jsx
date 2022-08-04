@@ -11,8 +11,8 @@ const Venue = () => {
           <img src={weddingIcon} alt='Wedding Icon' />
           <h3 className='heading-tertiary'>Wedding Ceremony</h3>
           <p className='paragraph'>
-            AT HARVESTERS INT'L CHRISTIAN CENTER, 308, beside Thoedolite House,
-            ikorodu road by Anthony Bus stop, Maryland, Lagos.
+            AT HARVESTERS INT'L CHRISTIAN CENTER, <br /> 308, beside Thoedolite
+            House, ikorodu road by Anthony Bus stop, Maryland, Lagos.
           </p>
           <p className='paragraph'>TIME: 12PM Noon</p>
         </div>
@@ -20,7 +20,7 @@ const Venue = () => {
           <img src={cheersIcon} alt='Cheers Icon' />
           <h3 className='heading-tertiary'>Wedding Party</h3>
           <p className='paragraph'>
-            Reception follows immediately at divine events centre, 7
+            Reception follows immediately at Divine Events Centre, 7
             Shepherdhill Baptist Church, Baptist Academy, Obanikoro bus/stop,
             Lagos.
           </p>
