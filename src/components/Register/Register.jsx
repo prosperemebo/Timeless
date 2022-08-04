@@ -8,7 +8,11 @@ const Register = () => {
       <p className='paragraph'>Scan to register, we’re excited to have you!</p>
       <div className='sizedbox'></div>
       <div className={`card ${classes.code}`}>
-        <a href='https://guesttrack.io/visit/#/qwnwefsiswk/t/GuestPass/pre-registration'>
+        <a
+          target='_blank'
+          href='https://guesttrack.io/visit/#/qwnwefsiswk/t/GuestPass/pre-registration'
+          rel='noreferrer'
+        >
           <img src={qrCode} alt='QRCode' />
         </a>
       </div>

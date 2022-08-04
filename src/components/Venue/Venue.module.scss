@@ -1,4 +1,5 @@
 @import '../../sass/abstracts/mixins';
+@import '../../sass/abstracts/variables';
 
 .Venue {
   text-align: center;
@@ -63,6 +64,11 @@
 
         h3 {
           margin-bottom: 1rem;
+        }
+
+        a {
+          color: $color-secondary;
+          text-decoration: none;
         }
 
         &:not(:last-child) {

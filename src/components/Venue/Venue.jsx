@@ -42,21 +42,29 @@ const Venue = () => {
         <div className={classes.info}>
           <div className={classes.data}>
             <h3 className='heading-tertiary'>Olaide Eremiokhale</h3>
-            <p className='paragraph'>08026263744</p>
+            <p className='paragraph'>
+              <a href='tel:+2348026263744'>08026263744</a>
+            </p>
           </div>
           <div className={classes.data}>
             <h3 className='heading-tertiary'>Temitope Beckley</h3>
-            <p className='paragraph'>07036623355</p>
+            <p className='paragraph'>
+              <a href='tel:+2347036623355'>07036623355</a>
+            </p>
           </div>
         </div>
         <div className={classes.info}>
           <div className={classes.data}>
             <h3 className='heading-tertiary'>Babajide Adigun</h3>
-            <p className='paragraph'>08033084982</p>
+            <p className='paragraph'>
+              <a href='tel:+2348033084982'>08033084982</a>
+            </p>
           </div>
           <div className={classes.data}>
             <h3 className='heading-tertiary'>Titilayo Orojimi</h3>
-            <p className='paragraph'>08029134533</p>
+            <p className='paragraph'>
+              <a href='tel:+2348029134533'>08029134533</a>
+            </p>
           </div>
         </div>
       </div>
