@@ -10,12 +10,11 @@ const About = () => {
           <h1 className={`heading-primary ${classes.ml}`}>is Timeless</h1>
         </div>
         <p className='paragraph'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
+          The love we share knows no boundaries. It jumps hurdles, leaps fences,
+          penetrates walls to arrive at its destination full of hope. Two souls;
+          but with a single thought, our hearts beats as one. Love is our true
+          destiny. We do not find the meaning of life by ourselves alone, we
+          find it with each other.
         </p>
         <h3 className='heading-tertiary'>DATE: 27th AUG 2022</h3>
       </div>
